@@ -1,6 +1,6 @@
 # dm_log_analyze
 ![commit](https://img.shields.io/github/last-commit/iverycd/dm_log_analyze?style=flat-square)
-![tag](https://img.shields.io/github/v/tag/iverycd/dm_log_analyze)
+![tag](https://img.shields.io/github/v/release/iverycd/dm_log_analyze?display_name=tag)
 ![languages](https://img.shields.io/github/languages/top/iverycd/dm_log_analyze)
 
 ## 简介
