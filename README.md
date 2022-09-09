@@ -1,4 +1,7 @@
 # dm_log_analyze
+![commit](https://img.shields.io/github/last-commit/iverycd/dm_log_analyze?style=flat-square)
+![tag](https://img.shields.io/github/v/tag/iverycd/dm_log_analyze)
+![languages](https://img.shields.io/github/languages/top/iverycd/dm_log_analyze)
 
 ## 简介
 此工具可用于分析达梦生成的慢日志（SVR_LOG）log文件，生成按时间以及执行次数执行情况的Excel表格，同时可以生成SQL执行情况散点图
