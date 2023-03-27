@@ -15,6 +15,8 @@ import string
 from dm_info import print_info
 import psycopg2
 
+# 2023-02-20
+# readloglines解析慢日志的时候使用str函数显式转换伟字符串避免数字等非迭代类型报错
 
 # 统计文件夹下的文件个数
 def show_file_tree(file_path):
@@ -235,7 +237,7 @@ class DmLog(object):
                     row_count = 0 if str_rowcount == -1 else str_rowcount
                     starttime = sql_begin_time
                     session = '(EP[0] ' + fetch_mid_str(line, '\(EP\[0\]', '\)') + ')'
-                    sql_fulltext = sql_text
+                    sql_fulltext = str(sql_text)
                     sql_exec_time = exec_time
                     sql_sub_text = sql_fulltext[0:4000]
                     exec_user = user
